@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
 .header {
     background-color: #1f2937;
     display: flex;
@@ -31,7 +35,158 @@
     border: solid yellow;
 } */
 
-img {
+.content1 img {
     height: 300px;
-    width: 600px;
+    width: 450px;
+    /* display: flex;
+    flex-grow: 0;
+    flex-shrink: 1; */
+    border-radius: 8px;
 }
+
+.content1 {
+    background-color: #1f2937;
+    border: solid yellow;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 100px; */
+}
+
+.content1 .text {
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 5px;
+}
+
+.content1 .main {
+    font-weight: 800;
+    font-size: 48px;
+    color: #f9faf8;
+    /* text-align: justify; */
+}
+
+.content1 .body {
+    font-size: 18px;
+    color: #e5e7eb;
+    /* border: solid greenyellow; */
+    display: flex;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.content1 button {
+    width: 100px; /* Change width of button */
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 4px;
+    border: none;
+    height: 30px;
+    font-weight: 800;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    /* border: solid green; */
+}
+
+.content3 {
+    /* padding: 100px; */
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    padding: 0px 200px 150px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* flex: 1 1 auto; */
+    /* border: solid yellow; */
+}
+
+.content3 img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid blue;
+    border-radius: 8px;
+}
+
+.content3 .text {
+    /* display: flex; */
+    width: 150px;
+    text-align: center;
+}
+
+.content4 {
+    display: flex;
+    padding: 200px;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    /* border: solid yellow; */
+    gap: 5px;
+}
+
+.content4 .from {
+    display: flex;
+    justify-content: right;
+    /* border: solid green; */
+    /* text-align: left; */
+}
+
+.content5 {
+    display: flex;
+    /* border: solid yellow; */
+    background-color: #3882f6;
+    margin: 100px;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.content5 button {
+    background-color: #3882f6;
+    height: 30px;
+    border-radius: 8px;
+    border: solid white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+}
+
+.content5 .text {
+    color: white;
+}
+
+.content5 .head {
+    font-weight: 800;
+}
+
+.content5 .body {
+    font-weight: lighter;
+}
+
+.footer {
+    background-color: #1f2937;
+    border: solid yellow;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Ortadaki textleri tam centerlayamıyorum. Sağ ve sol eşit olacak şekilde */
